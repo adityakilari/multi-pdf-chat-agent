@@ -1,0 +1,12 @@
+services:
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - modelOlama:/root/.ollama
+    command: >
+      sh -c "ollama serve & sleep 5 && ollama pull Mistral && tail -f /dev/null"
+
+volumes:
+  modelOllama:
