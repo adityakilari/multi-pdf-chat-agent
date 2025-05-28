@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+
+# ChromaDB directory
+chroma_db/
+
+# Python cache directories
+__pycache__/
+
+# Ignore all files in a 'packages' directory if it exists,
+# though 'venv/' is more common for Python packages.
+# If you literally have a directory named 'packages' that you want to ignore:
+# packages/
