@@ -16,7 +16,7 @@
 
 - compose.yml file is attached. or
 
--docker pull ollama/ollama:latest
--docker run -d -p 11434:11434 --name ModelOllama ollama/ollama
--docker list (to see list of models exist)
--docker pull <any_model_you_need>
+- docker pull ollama/ollama:latest
+- docker run -d -p 11434:11434 --name ModelOllama ollama/ollama
+- docker list (to see list of models exist)
+- docker pull <any_model_you_need>
